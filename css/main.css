@@ -1,3 +1,6 @@
+body * {
+  box-sizing: border-box; }
+
 body header {
   height: 700px; }
   body header #heading {
@@ -94,3 +97,119 @@ body #about {
           width: 120px;
           padding: 7px 0;
           text-align: center; }
+
+body #video {
+  height: 550px;
+  position: relative; }
+  body #video a {
+    font-size: 100px;
+    color: #fff;
+    position: absolute;
+    top: calc(50% - 50px);
+    right: calc(50% - 50px); }
+    body #video a i .far {
+      font-size: 40px; }
+
+body #expertise {
+  margin: 70px 0; }
+  body #expertise .services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+    body #expertise .services.container {
+      width: 950px;
+      margin: 0 auto; }
+    body #expertise .services .services-title h2 {
+      font-size: 22px;
+      text-transform: uppercase;
+      font-weight: bold; }
+    body #expertise .services .services-title p {
+      font-size: 14px;
+      margin-top: 10px; }
+    body #expertise .services .services-area {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 50px; }
+      body #expertise .services .services-area .services-item {
+        width: 33%;
+        padding: 40px;
+        border-bottom: 1px solid #ebebeb;
+        border-right: 1px solid #ebebeb; }
+        body #expertise .services .services-area .services-item:nth-child(3) {
+          border-right: none; }
+        body #expertise .services .services-area .services-item:nth-child(6) {
+          border-right: none;
+          border-bottom: none; }
+        body #expertise .services .services-area .services-item:nth-child(4) {
+          border-bottom: none; }
+        body #expertise .services .services-area .services-item:nth-child(5) {
+          border-bottom: none; }
+        body #expertise .services .services-area .services-item img {
+          max-width: 100%; }
+        body #expertise .services .services-area .services-item h3 {
+          font-size: 14px;
+          font-weight: bold;
+          margin: 35px 0 25px; }
+        body #expertise .services .services-area .services-item p {
+          font-size: 14px; }
+
+body #teams {
+  margin: 65px 0 0; }
+  body #teams .our-teams {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 65px 0; }
+    body #teams .our-teams.container {
+      width: 950px;
+      margin: 0 auto; }
+    body #teams .our-teams .teams-title {
+      text-align: center;
+      color: #fff; }
+      body #teams .our-teams .teams-title h2 {
+        font-size: 22px;
+        text-transform: uppercase;
+        font-weight: bold; }
+      body #teams .our-teams .teams-title p {
+        font-size: 14px;
+        margin-top: 10px; }
+    body #teams .our-teams .teams-area {
+      display: flex;
+      margin: 60px 0; }
+      body #teams .our-teams .teams-area .teams-item {
+        padding: 7px;
+        text-align: center; }
+        body #teams .our-teams .teams-area .teams-item img {
+          max-width: 100%; }
+        body #teams .our-teams .teams-area .teams-item .teams-subtitle {
+          color: #fff;
+          text-transform: uppercase;
+          margin-top: -3px;
+          padding: 10px 0;
+          border-left: 1px solid #ebebeb;
+          border-right: 1px solid #ebebeb;
+          border-bottom: 1px solid #ebebeb; }
+          body #teams .our-teams .teams-area .teams-item .teams-subtitle h3 {
+            font-size: 14px;
+            margin-bottom: 4px;
+            font-weight: bold; }
+          body #teams .our-teams .teams-area .teams-item .teams-subtitle p {
+            font-size: 13px;
+            color: #ebebeb; }
+    body #teams .our-teams span {
+      color: #fff;
+      font-size: 14px;
+      letter-spacing: 2px; }
+    body #teams .our-teams .btn-teams {
+      margin-top: 30px; }
+      body #teams .our-teams .btn-teams a {
+        text-align: center;
+        color: #00e0d0;
+        font-size: 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: block;
+        border: 1px solid #00e0d0;
+        padding: 7px 10px;
+        margin: 0 auto; }
